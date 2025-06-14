@@ -1,0 +1,35 @@
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 4px;
+    margin-top: 20px;
+}
+
+.key {
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key.neutra {
+    background-color: #ddd;
+}
+
+.key.correta {
+    background-color: green;
+}
+
+.key.quase {
+    background-color: goldenrod;
+}
+
+.key.errada {
+    background-color: gray;
+}
+
+.key:hover {
+    opacity: 0.8;
+}
